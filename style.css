@@ -17,6 +17,7 @@ body {
   top: 50px;
   cursor: pointer;
   animation: up 3s linear infinite;
+  
 }
 
 /* Style the envelope and the card */
@@ -94,11 +95,6 @@ body {
   position: absolute;
   width: 30px;
 }
-/* 
-.heart:before {
-  top: -15px;
-  left: 0;
-} */
 
 .heart:after {
   left: 0px;
@@ -244,8 +240,8 @@ body {
 } */
 
 /* M Size Mobile */
-
-@media (max-width: 475px) {
+/* 
+@media (min-width: 455px) {
   .container {
     width: 100%;
     margin-left: auto;
@@ -255,12 +251,12 @@ body {
   }
   .shadow {
     position: absolute;
-    left: 71px;
+    left: 24px;
     top: 248px;
   }
   .valentines{
     top: 55px;
-    left: 65px;
+    left: 17px;
   }
   .front{
     border-right: 181px solid #f4978e;
@@ -274,11 +270,11 @@ body {
     left: -121px;
     top: -95px;
   }
-}
+} */
 
 /* S Size Mobile */
 
-@media (max-width: 350px) {
+@media (max-width: 310px) {
   .container {
     width: 100%;
     margin-left: auto;
